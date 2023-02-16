@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".item_KPU">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="410dp"
+        android:layout_height="223dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="121dp"
+            android:layout_height="78dp"
+            app:srcCompat="@drawable/kwantlen_polytechnic_university_logo_a5bf470708_seeklogo_com" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KPU Information"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Surrey Campus" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KPU Surrey 12666 72 Ave Surrey, BC" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number: 604-599-2000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="505dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:layout_editor_absoluteX="1dp">
+
+        <Button
+            android:id="@+id/btn_home_kpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToHomeButton"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/btn_sfu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToNextScreen"
+            android:text="Go to SFU Screen" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_kpu"
+        android:title="KPU" />
+    <item
+        android:id="@+id/item_sfu"
+        android:title="SFU" />
+    <item
+        android:id="@+id/item_ubc"
+        android:title="UBC" />
+    <item
+        android:id="@+id/item_exit"
+        android:title="Exit" />
+</menu>
